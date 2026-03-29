@@ -1,0 +1,4 @@
+langchain
+langchain-text-splitters
+scikit-learn
+pandas
