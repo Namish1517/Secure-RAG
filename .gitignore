@@ -15,3 +15,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Temporary files and vector db indexes
+temp.txt
+faiss_index/
