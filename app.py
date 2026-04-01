@@ -31,7 +31,7 @@ if "db" not in st.session_state:
 # -------------------------
 # 🔑 GROQ SETUP
 # -------------------------
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+GROQ_API_KEY =  "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"
 client = Groq(api_key=GROQ_API_KEY)
 
 # -------------------------
