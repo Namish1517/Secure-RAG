@@ -50,7 +50,7 @@ def build_dataset():
 
     combined_df.to_csv(output_path, index=False)
 
-    print(f"\n✅ Successfully saved {len(combined_df)} real-world samples to {output_path}!")
+    print(f"\nSuccessfully saved {len(combined_df)} real-world samples to {output_path}!")
     print("\nNext Steps:")
     print("1. Update layer1/train_ml.py to simply read this CSV (remove synthetic generation).")
     print("2. Run 'python layer1/train_ml.py' to train your new real-world model.")
